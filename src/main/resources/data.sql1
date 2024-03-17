@@ -1,0 +1,5 @@
+INSERT INTO employees (id, firstName, lastName, email) VALUES (1L, 'Parameswara Rao', 'Tadisetti', 'parameswararaot@gmail.com');
+INSERT INTO employees (id, firstName, lastName, email) VALUES (2L, 'Amit', 'B', 'amit.b@gmail.com');
+INSERT INTO employees (id, firstName, lastName, email) VALUES (3L, 'Jhon', 'Smith', 'jhon.smith@gmail.com');
+INSERT INTO employees (id, firstName, lastName, email) VALUES (4L, 'Venkat', 'A', 'venkat.a@gmail.com');
+INSERT INTO employees (id, firstName, lastName, email) VALUES (5L, 'Ravi', 'R', 'ravi.r@gmail.com');
