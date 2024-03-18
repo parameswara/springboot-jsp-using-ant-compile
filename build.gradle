@@ -13,9 +13,13 @@ java {
 
 repositories {
 	mavenCentral()
+	flatDir{
+		dirs 'src/main/webapp/WEB-INF/lib'
+	}
 }
 
 dependencies {
+	implementation fileTree(dir: 'src/main/webapp/WEB-INF/lib', include: ['jsp.jar'])
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-devtools'

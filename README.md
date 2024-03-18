@@ -17,6 +17,20 @@ https://tomcat.apache.org/tomcat-9.0-doc/jasper-howto.html
 https://docs.gradle.org/7.4/dsl/org.gradle.api.tasks.Copy.html
 
 
+C:\Users\param\OneDrive\Documents\GitHub\springboot-jsp-using-ant-compile\src\main\webapp\WEB-INF\classes>jar cvf jsp.jar org
+added manifest
+adding: org/(in = 0) (out= 0)(stored 0%)
+adding: org/apache/(in = 0) (out= 0)(stored 0%)
+adding: org/apache/jsp/(in = 0) (out= 0)(stored 0%)
+adding: org/apache/jsp/jsp/(in = 0) (out= 0)(stored 0%)
+adding: org/apache/jsp/jsp/editEmployee_jsp.class(in = 21753) (out= 8222)(deflated 62%)
+adding: org/apache/jsp/jsp/error_jsp.class(in = 5711) (out= 2591)(deflated 54%)
+adding: org/apache/jsp/jsp/hello_jsp.class(in = 5635) (out= 2534)(deflated 55%)
+adding: org/apache/jsp/jsp/index_jsp.class(in = 7244) (out= 3268)(deflated 54%)
+
+
+Copy jsp.jar file to WEB-INF/lib.
+
 Note:
 JSP class files need to be included in bootJar which need to be done.
 
